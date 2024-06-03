@@ -1,0 +1,117 @@
+{
+	"info": {
+		"_postman_id": "a2524d28-d7f3-43c8-a8d8-3f139178fc44",
+		"name": "StudentApp",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "35188179"
+	},
+	"item": [
+		{
+			"name": "http://localhost:9192/students",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:9192/students",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9192",
+					"path": [
+						"students"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9192/students/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9192/students/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9192",
+					"path": [
+						"students",
+						"add"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:9192/student/update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"rollNo\": 2,\r\n    \"name\": \"Maheshkumar\",\r\n    \"percentage\": 60.0,\r\n    \"branch\": \"eee\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9192/student/update",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9192",
+					"path": [
+						"student",
+						"update"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
