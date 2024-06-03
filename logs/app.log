@@ -1,0 +1,111 @@
+2024-06-03 06:38:52,389 DEBUG [http-nio-9192-exec-2] org.hibernate.SQL : select s1_0.roll_no,s1_0.student_branch,s1_0.student_name,s1_0.student_percentage from student s1_0
+2024-06-03 06:38:52,403 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [0] - [1]
+2024-06-03 06:38:52,404 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student(655641576515700)): 1
+2024-06-03 06:38:52,407 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student(655641576515700)#1] : 539641703
+2024-06-03 06:38:52,408 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [1] - [ece]
+2024-06-03 06:38:52,408 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [2] - [ravi]
+2024-06-03 06:38:52,408 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [3] - [90.0]
+2024-06-03 06:38:52,418 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student(655641576515700)#1
+2024-06-03 06:38:52,418 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@57bf8108
+2024-06-03 06:38:52,418 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [0] - [2]
+2024-06-03 06:38:52,418 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student(655641576515700)): 2
+2024-06-03 06:38:52,418 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student(655641576515700)#2] : 1968261730
+2024-06-03 06:38:52,418 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [1] - [IT]
+2024-06-03 06:38:52,419 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [2] - [Mahesh]
+2024-06-03 06:38:52,419 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [3] - [70.0]
+2024-06-03 06:38:52,419 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student(655641576515700)#2
+2024-06-03 06:38:52,419 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@57bf8108
+2024-06-03 06:38:52,420 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [0] - [3]
+2024-06-03 06:38:52,420 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student(655641576515700)): 3
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student(655641576515700)#3] : 669530697
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [1] - [ece]
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [2] - [Vijay]
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [3] - [90.0]
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student(655641576515700)#3
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@57bf8108
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [0] - [4]
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student(655641576515700)): 4
+2024-06-03 06:38:52,421 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student(655641576515700)#4] : 267268435
+2024-06-03 06:38:52,422 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [1] - [it]
+2024-06-03 06:38:52,422 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [2] - [Sathish]
+2024-06-03 06:38:52,422 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results : Extracted JDBC value [3] - [80.0]
+2024-06-03 06:38:52,422 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student(655641576515700)#4
+2024-06-03 06:38:52,422 DEBUG [http-nio-9192-exec-2] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@57bf8108
+2024-06-03 06:38:52,431 DEBUG [http-nio-9192-exec-2] org.hibernate.engine.transaction.internal.TransactionImpl : committing
+2024-06-03 06:38:52,437 INFO  [http-nio-9192-exec-2] com.student.restapi.controller.StudentController : Get students data
+2024-06-03 06:40:48,067 DEBUG [http-nio-9192-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-06-03 06:40:48,067 DEBUG [http-nio-9192-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl : begin
+2024-06-03 06:40:48,092 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.sql.exec : Skipping reading Query result cache data: cache-enabled = false, cache-mode = IGNORE
+2024-06-03 06:40:48,092 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results : Initializer list:
+	  com.student.restapi.entity.Student -> EntityResultInitializer(com.student.restapi.entity.Student)@577366703 (SingleTableEntityPersister(com.student.restapi.entity.Student))
+
+2024-06-03 06:40:48,092 DEBUG [http-nio-9192-exec-4] org.hibernate.SQL : select s1_0.roll_no,s1_0.student_branch,s1_0.student_name,s1_0.student_percentage from student s1_0 where s1_0.roll_no=?
+2024-06-03 06:40:48,098 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student): 2
+2024-06-03 06:40:48,098 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student#2] : 1092188951
+2024-06-03 06:40:48,098 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results : Extracted JDBC value [1] - [IT]
+2024-06-03 06:40:48,098 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results : Extracted JDBC value [2] - [Mahesh]
+2024-06-03 06:40:48,098 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results : Extracted JDBC value [3] - [70.0]
+2024-06-03 06:40:48,100 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student#2
+2024-06-03 06:40:48,100 DEBUG [http-nio-9192-exec-4] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@31e63e79
+2024-06-03 06:40:48,100 DEBUG [http-nio-9192-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl : committing
+2024-06-03 06:40:48,101 DEBUG [http-nio-9192-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl : begin
+2024-06-03 06:40:48,103 DEBUG [http-nio-9192-exec-4] org.hibernate.jpa.internal.PersistenceUnitUtilImpl : jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
+2024-06-03 06:40:48,103 DEBUG [http-nio-9192-exec-4] org.hibernate.jpa.internal.PersistenceUnitUtilImpl : jakarta.persistence.PersistenceUnitUtil.getIdentifier is only intended to work with enhanced entities (although Hibernate also adapts this support to its proxies); however the passed entity was not enhanced (nor a proxy).. may not be able to read identifier
+2024-06-03 06:40:48,127 DEBUG [http-nio-9192-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl : committing
+2024-06-03 06:40:48,127 DEBUG [http-nio-9192-exec-4] org.hibernate.event.internal.AbstractFlushingEventListener : Processing flush-time cascades
+2024-06-03 06:40:48,133 DEBUG [http-nio-9192-exec-4] org.hibernate.event.internal.AbstractFlushingEventListener : Dirty checking collections
+2024-06-03 06:40:48,147 DEBUG [http-nio-9192-exec-4] org.hibernate.event.internal.AbstractFlushingEventListener : Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+2024-06-03 06:40:48,150 DEBUG [http-nio-9192-exec-4] org.hibernate.event.internal.AbstractFlushingEventListener : Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+2024-06-03 06:40:48,152 DEBUG [http-nio-9192-exec-4] org.hibernate.internal.util.EntityPrinter : Listing entities:
+2024-06-03 06:40:48,152 DEBUG [http-nio-9192-exec-4] org.hibernate.internal.util.EntityPrinter : com.student.restapi.entity.Student{percentage=70.0, name=Mahesh, rollNo=2, branch=IT}
+2024-06-03 06:40:48,173 DEBUG [http-nio-9192-exec-4] org.hibernate.SQL : delete from student where roll_no=?
+2024-06-03 06:41:20,169 DEBUG [http-nio-9192-exec-7] org.hibernate.engine.transaction.internal.TransactionImpl : On TransactionImpl creation, JpaCompliance#isJpaTransactionComplianceEnabled == false
+2024-06-03 06:41:20,169 DEBUG [http-nio-9192-exec-7] org.hibernate.engine.transaction.internal.TransactionImpl : begin
+2024-06-03 06:41:20,169 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.sql.ast.create : Created new SQL alias : s1_0
+2024-06-03 06:41:20,169 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.sql.ast.create : Registration of TableGroup [StandardTableGroup(com.student.restapi.entity.Student(655789560411700))] with identifierForTableGroup [com.student.restapi.entity.Student] for NavigablePath [com.student.restapi.entity.Student] 
+2024-06-03 06:41:20,169 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.graph.AST : DomainResult Graph:
+ \-EntityResultImpl [com.student.restapi.entity.Student(655789560411700)]
+ |  +-BasicFetch [com.student.restapi.entity.Student(655789560411700).branch]
+ |  +-BasicFetch [com.student.restapi.entity.Student(655789560411700).name]
+ |  \-BasicFetch [com.student.restapi.entity.Student(655789560411700).percentage]
+
+2024-06-03 06:41:20,169 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.sql.ast.tree : SQL AST Tree:
+    SelectStatement {
+      FromClause {
+        StandardTableGroup (s1 : com.student.restapi.entity.Student(655789560411700)) {
+          primaryTableReference : student as s1_0
+        }
+      }
+    }
+
+2024-06-03 06:41:20,175 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.sql.exec : Skipping reading Query result cache data: cache-enabled = false, cache-mode = NORMAL
+2024-06-03 06:41:20,175 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Initializer list:
+	  com.student.restapi.entity.Student(655789560411700) -> EntityResultInitializer(com.student.restapi.entity.Student(655789560411700))@1502547694 (SingleTableEntityPersister(com.student.restapi.entity.Student))
+
+2024-06-03 06:41:20,175 DEBUG [http-nio-9192-exec-7] org.hibernate.SQL : select s1_0.roll_no,s1_0.student_branch,s1_0.student_name,s1_0.student_percentage from student s1_0
+2024-06-03 06:41:20,179 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [0] - [1]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student(655789560411700)): 1
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student(655789560411700)#1] : 1910370496
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [1] - [ece]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [2] - [ravi]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [3] - [90.0]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student(655789560411700)#1
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@5004786b
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [0] - [3]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student(655789560411700)): 3
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student(655789560411700)#3] : 378361281
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [1] - [ece]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [2] - [Vijay]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [3] - [90.0]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student(655789560411700)#3
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@5004786b
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [0] - [4]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Hydrated EntityKey (com.student.restapi.entity.Student(655789560411700)): 4
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Created new entity instance [com.student.restapi.entity.Student(655789560411700)#4] : 206317463
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [1] - [it]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [2] - [Sathish]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results : Extracted JDBC value [3] - [80.0]
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading.entity : (EntityResultInitializer) Done materializing entityInstance : com.student.restapi.entity.Student(655789560411700)#4
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.orm.results.loading : Calling top-level assembler (0 / 1) : org.hibernate.sql.results.graph.entity.internal.EntityAssembler@5004786b
+2024-06-03 06:41:20,180 DEBUG [http-nio-9192-exec-7] org.hibernate.engine.transaction.internal.TransactionImpl : committing
+2024-06-03 06:41:20,184 INFO  [http-nio-9192-exec-7] com.student.restapi.controller.StudentController : Get students data
